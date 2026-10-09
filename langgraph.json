@@ -1,0 +1,14 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "python_version": "3.12",
+  "dependencies": ["."],
+  "graphs": {
+    "unguarded": "./server/graphs.py:unguarded",
+    "guarded": "./server/graphs.py:guarded"
+  },
+  "http": {
+    "app": "./server/routes.py:app",
+    "cors": {"allow_origins": ["*"], "allow_methods": ["*"], "allow_headers": ["*"]}
+  },
+  "env": ".env"
+}

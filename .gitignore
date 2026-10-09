@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+data/*.db
+*.Zone.Identifier
+chat-ui/node_modules/
+chat-ui/.next/
+chat-ui/.env
+.langgraph_api/
+*.tsbuildinfo
+.next/
+node_modules/
+.env
+*:Zone.Identifier
